@@ -19,7 +19,12 @@ namespace prueba_github
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hola");
+            MessageBox.Show("Chao");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("YO EDITE ESTO ");
         }
     }
 }
